@@ -1,16 +1,79 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my work and skills as a developer.
 
-Currently, two official plugins are available:
+## 🚀 Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - UI library
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Three.js** (optional) - 3D graphics
+- **ESLint** - Code linting
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 Modern and clean design
+- 📱 Fully responsive layout
+- ⚡ Fast loading with Vite
+- 🎯 Smooth animations and transitions
+- 🌐 SEO optimized
 
-## Expanding the ESLint configuration
+## 🛠️ Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
+
+5. Preview production build:
+```bash
+npm run preview
+```
+
+## 📂 Project Structure
+
+```
+portfolio/
+├── public/          # Static assets
+│   ├── images/     # Images and icons
+│   └── models/     # 3D models
+├── src/
+│   ├── components/ # Reusable components
+│   ├── sections/   # Page sections (Hero, etc.)
+│   ├── constants/  # Constants and data
+│   ├── App.jsx     # Main app component
+│   └── main.jsx    # Entry point
+└── index.html      # HTML template
+```
+
+## 🌟 About
+
+Hi, I'm Ahmed, a developer from Pakistan with a passion for creating innovative and efficient web solutions. This portfolio showcases my projects and skills in web development.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contact
+
+Feel free to reach out for collaborations or just a friendly chat!
+
+---
+
+Made with ❤️ by Ahmed
