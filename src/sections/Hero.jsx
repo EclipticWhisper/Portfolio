@@ -36,11 +36,11 @@ const Herox = () => {
             />
           </div>
         </header>
-        <figure>
+        <div>
           <div className="hero-3d-layout">
             <HeroExperience />
           </div>
-        </figure>
+        </div>
       </div>
     </section>
   )
